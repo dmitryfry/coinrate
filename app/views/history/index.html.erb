@@ -1,0 +1,8 @@
+<h1> History </h1>
+<% @history_pair.each do |pair|%>
+  <p>
+    <%= pair.pair_name %>
+    <%= pair.created_at %>
+    <%= pair.rate %>
+  </p>
+<% end %>

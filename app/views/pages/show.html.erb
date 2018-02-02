@@ -1,0 +1,75 @@
+<h1> Pair </h1>
+<p> <%= @pair_for_page.pair_name %> </p>
+<p> Rate <%= @pair_for_page.rate %> </p>
+
+<h2>Pair Info</h2>
+<table style="width:100%">
+  <tr>
+    <th>Value name</th>
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td>altname</td>
+    <td><%= @pair_for_page.altname %></td>
+  </tr>
+  <tr>
+    <td>aclass_base</td>
+    <td><%= @pair_for_page.aclass_base %></td>
+  </tr>
+  <tr>
+    <td>base</td>
+    <td><%= @pair_for_page.base %></td>
+  </tr>
+  <tr>
+    <td>aclass_quote</td>
+    <td><%= @pair_for_page.aclass_quote %></td>
+  </tr>
+  <tr>
+    <td>quote</td>
+    <td><%= @pair_for_page.quote %></td>
+  </tr>
+  <tr>
+    <td>lot</td>
+    <td><%= @pair_for_page.lot %></td>
+  </tr>
+  <tr>
+    <td>pair_decimals</td>
+    <td><%= @pair_for_page.pair_decimals %></td>
+  </tr>
+  <tr>
+    <td>lot_decimals</td>
+    <td><%= @pair_for_page.lot_decimals %></td>
+  </tr>
+  <tr>
+    <td>lot_multiplier</td>
+    <td><%= @pair_for_page.lot_multiplier %></td>
+  </tr>
+  <tr>
+    <td>leverage_buy</td>
+    <td><%= @pair_for_page.leverage_buy %></td>
+  </tr>
+  <tr>
+    <td>leverage_sell</td>
+    <td><%= @pair_for_page.leverage_sell %></td>
+  </tr>
+  <tr>
+    <td>fees</td>
+    <td><%= @pair_for_page.fees %></td>
+  </tr>
+  <tr>
+    <td>fees_maker</td>
+    <td><%= @pair_for_page.fees_maker %></td>
+  </tr>
+  <tr>
+    <td>fee_volume_currency</td>
+    <td><%= @pair_for_page.fee_volume_currency %></td>
+  </tr>
+  <tr>
+    <td>margin_call</td>
+    <td><%= @pair_for_page.margin_call %></td>
+  </tr>
+  <tr>
+    <td>margin_stop</td>
+    <td><%= @pair_for_page.margin_stop %></td>
+  </tr>
+</table>

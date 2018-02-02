@@ -1,0 +1,9 @@
+<h1>Asset Pairs</h1>
+<table>
+  <table style="width:100%">
+  <% @assetpairs.each do |pair| %>
+  <tr>
+    <td><%= link_to pair.name, pair.name %></td>
+  </tr>
+  <% end %>
+</table>
